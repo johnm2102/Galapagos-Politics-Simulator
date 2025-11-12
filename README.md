@@ -1,4 +1,4 @@
-# Galapagos-Politics-Simulator
+# Galapagos Politics Simulator
 A concurrent cellular automaton, modelling interactions between finches in the Galapagos Islands, based on their social or political strategies. Each finch represents a political ideology, and interacts with its neighbors under local rules that govern cooperation, punishment and reproduction. This project was written in Haskell. 
 
 ## Overview
@@ -62,8 +62,7 @@ cabal clean
 
 ## Technical Highlights 
 - This project has a fully concurrent cell process with message passing.
-- Timeout-based safety to kill infinite loops or illegal strategies
+- Utilizes timeout-based safety to kill infinite loops or illegal strategies. 
 - Uses Margolus tiling for reversible, physically-inspired simulation.
-- Custom APL-like DSL parser for strategy definition.
-- Property based tests for parser correctness and parameters ordering.
-- Highly modular: strategies and rules can be swapped dynamically.
+- Parser for strategy definition.
+
