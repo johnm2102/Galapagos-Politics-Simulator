@@ -21,6 +21,14 @@ Each simulation step involves the following:
 - Populist: Mirrors local majority behavior.
 - Coalition:
 
+### System-Level Politics 
+The environment itself involves politics: 
+- Reduction of Inverse Reproduction Chance: Birth control/demographic decline
+- Increase of the maximum HP: Welfare/universal healthcare
+- Redistribution of HP between neighbors: Economic levelling/planned economy
+- Giving HP bonus for defectors: Market Inequality
+- Removed strategy memory: Propoganda 
+
 ## Architecture 
 - BlockAutomaton.Server: Concurrent Simulation engine handling message passing, timeouts and synchronization across the grid
 - BlockAutomaton.Rules: Defines Margolus positions, interactions, and cell lifecycle rules.
